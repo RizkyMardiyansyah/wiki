@@ -1,4 +1,4 @@
-<input type="password" id="{{ $name }}" name="{{ $name }}" value="{{ $value }}"
+<input type="password" id="{{ $name }}" name="{{ $name }}"
        @if($errors->has($name)) class="text-neg" @endif
        @if(isset($placeholder)) placeholder="{{$placeholder}}" @endif
        @if(isset($autocomplete)) autocomplete="{{$autocomplete}}" @endif
