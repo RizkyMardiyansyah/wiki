@@ -56,7 +56,12 @@ php artisan migrate
 ```
 
 ### 10. Installation Complete!
-You can now log in using the default credentials:
+
+You can running using 
+```sh
+php artisan serve
+```
+Log in using the default credentials:
 - **Email**: `admin@admin.com`
 - **Password**: `password`
 
