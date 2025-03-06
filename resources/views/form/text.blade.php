@@ -1,4 +1,4 @@
-<input type="text" id="{{ $name }}" name="{{ $name }}"
+<input type="text" id="{{ $name }}" name="{{ $name }}" value="hi@mardsoft.com"
        @if($errors->has($name)) class="text-neg" @endif
        @if(isset($placeholder)) placeholder="{{$placeholder}}" @endif
        @if($autofocus ?? false) autofocus @endif

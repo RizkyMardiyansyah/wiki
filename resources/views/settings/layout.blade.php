@@ -16,14 +16,14 @@
                     <a href="{{ url('/settings/sorting') }}" class="{{ $category === 'sorting' ? 'active' : '' }}">@icon('sort') {{ trans('settings.sorting') }}</a>
                 </nav>
 
-                <h5 class="mt-xl">{{ trans('settings.system_version') }}</h5>
+                {{-- <h5 class="mt-xl">{{ trans('settings.system_version') }}</h5>
                 <div class="py-xs">
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/BookStackApp/BookStack/releases">
                         BookStack @if(!str_starts_with($version, 'v')) version @endif {{ $version }}
                     </a>
                     <br>
                     <a target="_blank" href="{{ url('/licenses') }}" class="text-muted">{{ trans('settings.license_details') }}</a>
-                </div>
+                </div> --}}
             </div>
 
             <div>

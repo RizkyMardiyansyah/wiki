@@ -66,3 +66,7 @@ Log in using the default credentials:
 - **Password**: `password`
 
 ⚠ **Important:** Change the default admin credentials immediately after your first login.
+
+# If Prod 
+
+Delete value in Email and Password form in login-form-standard.blade.php
