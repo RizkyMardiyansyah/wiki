@@ -4,12 +4,12 @@
     <div class="stretch-inputs">
         <div class="form-group">
             <label for="email">{{ trans('auth.email') }}</label>
-            @include('form.text', ['name' => 'email', 'autofocus' => true])
+            @include('form.text', ['name' => 'email', 'value' => 'hi@mardsoft.com', 'autofocus' => true])
         </div>
 
         <div class="form-group">
             <label for="password">{{ trans('auth.password') }}</label>
-            @include('form.password', ['name' => 'password'])
+            @include('form.password', ['name' => 'password', 'value' => 'himardsoft'])
             <div class="small mt-s">
                 <a href="{{ url('/password/email') }}">{{ trans('auth.forgot_password') }}</a>
             </div>
